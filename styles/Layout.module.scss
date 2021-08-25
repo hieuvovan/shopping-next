@@ -1,0 +1,25 @@
+.header {
+
+  .header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav_list {
+    display: flex;
+  }
+
+  .nav_item:first-child {
+    padding-right: 24px;
+  }
+}
+
+.footer {
+  background-color: #707070;
+  padding: 10px 0;
+  color: white;
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+}
